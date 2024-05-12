@@ -18,7 +18,6 @@ while True:
     event, values = window.read()
     print(event)
     print(values)
-    # print(values['todos'])
     match event:
         case 'Add':
             todos = functions.read_todos()
