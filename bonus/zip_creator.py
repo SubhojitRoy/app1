@@ -11,4 +11,4 @@ def make_archive(filepaths, dest_dir):
 
 
 if __name__ == '__main__':
-    make_archive(filepaths=["../bonus15.py", "../thoughts in file.py"], dest_dir="../dest")
+    make_archive(filepaths=["bonus15.py", "thoughts in file.py"], dest_dir="dest")

@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from modules import zip_creator
+from bonus import zip_creator
 
 label_1 = sg.Text("Select file to compress")
 input_1 = sg.Input()
@@ -11,7 +11,7 @@ choose_button_2 = sg.FolderBrowse("Choose", key="folder")
 
 compress_button = sg.Button("Compress")
 
-output_label = sg.Text(key="output")
+output_label = sg.Text(key="output", text_color="red")
 
 window = sg.Window("File Compresses",
                    [[label_1, input_1, choose_button_1],
